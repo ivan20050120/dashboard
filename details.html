@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <!-- sidebar-open  - class to show sidebar -->
+<sidebar class="sidebar">
+    <div class="sidebar__container">
+        <div class="sidebar__top">
+            <div class="sidebar__burdger"><span></span></div>
+            <div class="sidebar__close icon-double-arrow">Menu</div>
+        </div>
+        <div class="sidebar__wrapper">
+            <div class="sidebar__body">
+                <div class="sidebar__item item-sidebar icon-dashboard">
+                    <div class="item-sidebar__title">Dashboard</div>
+                </div>
+                <div class="sidebar__item item-sidebar item-sidebar-active icon-profile">
+                    <div class="item-sidebar__title">Candidates<span>12</span></div>
+                    <span class="item-sidebar__notif"></span>
+                </div>
+                <div class="sidebar__item item-sidebar icon-jobs">
+                    <div class="item-sidebar__title">Vancancies</div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-companies">
+                    <div class="item-sidebar__title">Companies</div>
+                    <span class="item-sidebar__notif"></span>
+                </div>
+                <div class="sidebar__item item-sidebar icon-calendar">
+                    <div class="item-sidebar__title">Calendar<span>3</span></div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-email">
+                    <div class="item-sidebar__title">Email<span>123</span></div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-team">
+                    <div class="item-sidebar__title">Team members</div>
+                </div>
+            </div>
+            <div class="sidebar__bottom">
+                <div class="sidebar__item item-sidebar icon-settings">
+                    <div class="item-sidebar__title">Setting</div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-help">
+                    <div class="item-sidebar__title">Help center</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sidebar>
+            <div class="wrapper__inner-content">
+                <header class="header">
+    <div class="header__container">
+        <button class="header__burger">
+            <span></span>
+            <div class="header__burger-notif">1</div>
+        </button>
+        <a href="/" class="header__logo">
+            <img src="img/logo.svg" alt="logo">
+        </a>
+        <div class="header__wrapper">
+            <div class="header__title">Main page title</div>
+            <div class="header__body">
+                <div class="header__search">
+                    <div class="search-form">
+                        <button class="search-form__icon icon-search"></button>
+                        <form action="#" method="post" name="search-form" class="search-form__item search-form__item_main">
+                            <button class="search-form__btn icon-search"></button>
+                            <input autocomplete='off' type='text' name='form[]' class='search-form__input' placeholder="Search by Candidates, Jobs, Companies">
+                            <button style="display: none;" class="search-form__btn-close icon-close-search"></button>
+                        </form>
+                        <div style="display: none;" class="search-form__block block-found">
+                            <div class="block-found__search">
+                                <button class="search-form__icon icon-arrow-small"></button>
+                                <form action="#" method="post" name="search-form" class="search-form__item">
+                                    <button class="search-form__btn icon-search"></button>
+                                    <input autocomplete='off' type='text' name='form[]' class='search-form__input' placeholder="Search by Candidates, Jobs, Companies">
+                                    <button style="display: none;" class="search-form__btn-close icon-close-search"></button>
+                                </form>
+                            </div>
+                            
+                            <div class="block-found__tabs">
+                                <div class="block-found__tabs-item block-found__tabs-item-active icon-profile">Candidates <span>23</span></div>
+                                <div class="block-found__tabs-item icon-jobs">Jobs <span>23</span></div>
+                                <div class="block-found__tabs-item icon-companies">Companies <span>23</span></div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__skeleton skeleton-block-found skeleton-block-found-circle">
+                                    <div class="skeleton-block-found__image">
+                                    </div>
+                                    <div class="skeleton-block-found__content">
+                                        <div class="skeleton-block-found__title"></div>
+                                        <div class="skeleton-block-found__subtitle"></div>
+                                    </div>
+                                </div>
+                                <div class="block-found__skeleton skeleton-block-found">
+                                    <div class="skeleton-block-found__image">
+                                    </div>
+                                    <div class="skeleton-block-found__content">
+                                        <div class="skeleton-block-found__title"></div>
+                                        <div class="skeleton-block-found__subtitle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__no-found no-found-block">
+                                    <div class="no-found-block__image">
+                                        <img src="img/no-found.svg" alt="no-found">
+                                    </div>
+                                    <div class="no-found-block__text">No results found</div>
+                                </div>
+                            </div>
+                            <div class="block-found__show">Show more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__options">
+                    <div class="header__add">
+                        <div class="header__add-icon icon-plus"></div>
+                        <span>Add</span>
+                    </div>
+                    <div class="header__notifications header__notifications_active icon-bell"></div>
+                    <div class="header__avatar ibg">
+                        <img src="img/avatar.png" alt="avatar">
+                        <div style="display: none;" class="header__account account-header">
+                            <div class="account-header__top">
+                                <div class="account-header__image ibg">
+                                    <img src="img/avatar.png" alt="avatar">
+                                </div>
+                                <div class="account-header__info">
+                                    <div class="account-header__name">Laurel Martin</div>
+                                    <div class="account-header__email">laurel.martin@corecruiter.com</div>
+                                </div>
+                            </div>
+                            <div class="account-header__body">
+                                <a href="/" class="account-header__item icon-profile">Profile</a>
+                                <a href="/" class="account-header__item icon-settings">Setting</a>
+                                <a href="/" class="account-header__item icon-feedback">Give feedback</a>
+                                <a href="/" class="account-header__item icon-help">Help center</a>
+                                <a href="/" class="account-header__item icon-out">Sign out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</header>
+                <main class="page">
+                    <section class="company-detail">
+                        <div class="company-detail__container">
+                            <div class="company-detail__info info-company-details">
+                                <div class="info-company-details__top">
+                                    <div class="info-company-details__back">
+                                        <span class="icon-arrow-small"></span>
+                                        Companies list
+                                    </div>
+                                    <div class="info-company-details__edit-button icon-edit">Edit</div>
+                                </div>
+                                <div class="info-company-details__item item-info-company-details">
+                                    <div class="item-info-company-details__main">
+                                        <div class="item-info-company-details__logo ibg">
+                                            <img src="img/company-image.png" alt="printasty">
+                                        </div>
+                                        <div class="info-company-details__info">
+                                            <div class="item-info-company-details__title">KPMG Digital Enablement</div>
+                                            <div class="item-info-company-details__main-info">
+                                                <div class="item-info-company-details__main-info-item item-info-company-details__main-info-item-location icon-location">San Francisco</div>
+                                                <div class="item-info-company-details__main-info__wrapper">
+                                                    <div class="item-info-company-details__main-info-item item-info-company-details__main-info-item">
+                                                        Added by <img src="img/avatar.png" alt="avatar">
+                                                    </div>
+                                                    <div class="item-info-company-details__main-info-item item-info-company-details__main-info-item">15:30, 05/08/2022</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-info-company-details__main-info__wrapper item-info-company-details__main-info__wrapper-mobile">
+                                        <div class="item-info-company-details__main-info-item item-info-company-details__main-info-item">
+                                            Added by <img src="img/avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="item-info-company-details__main-info-item item-info-company-details__main-info-item">15:30, 05/08/2022</div>
+                                    </div>
+                                    <div class="item-info-company-details__body">
+                                        <div class="item-info-company-details__item icon-link">Website <a href="kpmgdigital.com/us">kpmgdigital.com/us</a></div>
+                                        <div class="item-info-company-details__item icon-location">Full Address <span>115 SunWah Tower, Nguyen Hue Street, District 1, Ho Chi Minh City</span></div>
+                                        <div class="item-info-company-details__item icon-social">
+                                            Social
+                                            <div class="item-info-company-details__social-list">
+                                                <a href="facebook.com/kpmgdigital.us" class="ibg">
+                                                    <img src="img/socials/facebook.svg" alt="facebook">
+                                                    <div class="item-info-company-details__tips tips-item tips-item_up icon-triagle">facebook.com/kpmgdigital.us</div>
+                                                </a>
+                                                <a href="facebook.com/kpmgdigital.us" class="ibg">
+                                                    <img src="img/socials/twitter.svg" alt="twitter">
+                                                </a>
+                                                <a href="facebook.com/kpmgdigital.us" class="ibg">
+                                                    <img src="img/socials/youtube.svg" alt="youtube">
+                                                </a>
+                                                <a href="facebook.com/kpmgdigital.us" class="ibg">
+                                                    <img src="img/socials/linkedin.svg" alt="linkedin">
+                                                </a>
+                                                <a href="facebook.com/kpmgdigital.us" class="ibg">
+                                                    <img src="img/socials/reddit.svg" alt="reddit">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item-info-company-details__item item-info-company-details__item-about icon-document">
+                                            About
+                                            <div class="item-info-company-details__text">
+                                                KPMG is a global network of professional services firms in Audit, Tax & Advisory services, operating in 155 countries with 189,000 people around the world. Historically, KPMG has been thought of as an accounting and...
+                                            </div>
+                                            <button type="button" class="item-info-company-details__show-more show-more">Show more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-company-details__vacancies vacancies-info-company-details">
+                                    <div class="vacancies-info-company-details__triggers">
+                                        <div class="vacancies-info-company-details__tabs">
+                                            <button type="button" class="vacancies-info-company-details__tab tab-item _active">Open Jobs <span>12</span></button>
+                                            <button type="button" class="vacancies-info-company-details__tab tab-item">Closed Jobs <span>4</span></button>
+                                            <div class="vacancies-info-company-details__tabs-mobile">
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">All</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Notes & Calls</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Tasks</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Meetings</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Meetings</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Meetings</button>
+                                                <button type="button" class="vacancies-info-company-details__tab tab-item">Files</button>
+
+                                            </div>
+                                        </div>
+                                        <button type="button" class="vacancies-info-company-details__add icon-plus button-primary"><span>New Job</span></button>
+                                    </div>
+                                    <div class="vacancies-info-company-details__body">
+                                        <div class="info-company-details__vacancies-item item-info-company-vacancies">
+                                            <div class="item-info-company-vacancies__top">
+                                                <div class="item-info-company-vacancies__main">
+                                                    <div class="item-info-company-vacancies__title">Software Tester (Manual / Automation)</div>
+                                                    <div class="item-info-company-vacancies__list">
+                                                        <div class="item-info-company-vacancies__item icon-location">San Francisco</div>
+                                                        <div class="item-info-company-vacancies__item icon-dollar">Up to 7000 USD</div>
+                                                        <div class="item-info-company-vacancies__item icon-jobs">Full-time</div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-info-company-vacancies__options">
+                                                    <div class="item-info-company-vacancies__status item-info-company-vacancies__status-close icon-arrow-small">
+                                                        <span>Close</span>
+                                                    </div>
+                                                    <div class="item-info-company-vacancies__options-more icon-vertical-dots"></div>
+                                                </div>
+                                            </div>
+                                            <div class="item-info-company-vacancies__bottom">
+                                                <div class="item-info-company-vacancies__bottom-info">
+                                                    <div class="item-info-company-vacancies__candidates"><span>35</span> total candidates</div>
+                                                    <div class="item-info-company-vacancies__hired">1 hired</div>
+                                                </div>
+                                                <div class="item-info-company-vacancies__posted">
+                                                    <div class="item-info-company-vacancies__posted-item">Published 12/12/2022</div>
+                                                    <div class="item-info-company-vacancies__posted-item ">Owner 
+                                                        <div class="item-info-company-vacancies__posted-item-img ibg">
+                                                            <img src="img/avatar.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-company-details__vacancies-item item-info-company-vacancies">
+                                            <div class="item-info-company-vacancies__top">
+                                                <div class="item-info-company-vacancies__main">
+                                                    <div class="item-info-company-vacancies__title">Software Tester (Manual / Automation)</div>
+                                                    <div class="item-info-company-vacancies__list">
+                                                        <div class="item-info-company-vacancies__item icon-location">San Francisco</div>
+                                                        <div class="item-info-company-vacancies__item icon-dollar">Up to 7000 USD</div>
+                                                        <div class="item-info-company-vacancies__item icon-jobs">Full-time</div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-info-company-vacancies__options">
+                                                    <div class="item-info-company-vacancies__status item-info-company-vacancies__status-open icon-arrow-small">
+                                                        <span>Open</span>
+                                                    </div>
+                                                    <div class="item-info-company-vacancies__options-more icon-vertical-dots"></div>
+                                                </div>
+                                            </div>
+                                            <div class="item-info-company-vacancies__bottom">
+                                                <div class="item-info-company-vacancies__candidates"><span>35</span> total candidates</div>
+                                                <div class="item-info-company-vacancies__posted">
+                                                    <div class="item-info-company-vacancies__posted-item">Published 12/12/2022</div>
+                                                    <div class="item-info-company-vacancies__posted-item ">Owner 
+                                                        <div class="item-info-company-vacancies__posted-item-img ibg">
+                                                            <img src="img/avatar.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="messages-company-details__item item-messages-company-details item-messages-company-details-note">
+                                            <div class="item-messages-company-details__top">
+                                                <div class="item-messages-company-details__inner-top">
+                                                    <div class="item-messages-company-details__label">Note</div>
+                                                </div>
+                                                <button type="button" class="item-messages-company-details__more icon-vertical-dots"></button>
+                                            </div>
+                                            <div class="item-messages-company-details__body">
+                                                <div class="item-messages-company-details__image ibg">
+                                                    <img src="img/avatar.png" alt="avatar">
+                                                </div>
+                                                <div class="item-messages-company-details__content">
+                                                    <div class="item-messages-company-details__name">Linda Amanda</div>
+                                                    <div class="item-messages-company-details__descr">
+                                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla...
+                                                    </div>
+                                                    <div class="item-messages-company-details__show-more show-more">Show more</div>
+                                                    <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="messages-company-details__item item-messages-company-details item-messages-company-details-meetings">
+                                            <div class="item-messages-company-details__top">
+                                                <div class="item-messages-company-details__inner-top">
+                                                    <div class="item-messages-company-details__label">Meetings</div>
+                                                    <div class="item-messages-company-details__job">Job <span>Senior UI/UX Designer</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="item-messages-company-details__content">
+                                               <div class="item-messages-company-details__name">Phone Interview</div>
+                                                <div class="item-messages-company-details__time">
+                                                    <div class="item-messages-company-details__time-item icon-clock">15:30, 05/08/2022</div>
+                                                    <div class="item-messages-company-details__time-item icon-team">3 attendees</div>      
+                                                </div>
+                                                <div class="item-messages-company-details__descr">
+                                                    Task description minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                </div>
+                                                <div class="item-messages-company-details__bottom">
+                                                    <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                    <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                                </div >
+                                            </div>
+                                        </div>
+                                        <div class="messages-company-details__item item-messages-company-details item-messages-company-details-file">
+                                            <div class="item-messages-company-details__top">
+                                                <div class="item-messages-company-details__inner-top">
+                                                    <div class="item-messages-company-details__label">File</div>
+                                                </div>
+                                                <button type="button" class="item-messages-company-details__remove icon-delete"></button>
+                                            </div>
+                                            <div class="item-messages-company-details__content">
+                                               <div class="item-messages-company-details__name">Demi_lovato_portfolio_graphicdesign.pdf</div>
+                                                <div class="item-messages-company-details__bottom">
+                                                    <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                    <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="messages-company-details__item item-messages-company-details item-messages-company-details-call">
+                                            <div class="item-messages-company-details__top">
+                                                <div class="item-messages-company-details__inner-top">
+                                                    <div class="item-messages-company-details__label">Call</div>
+                                                    <div class="item-messages-company-details__job">Connected</div>
+                                                </div>
+                                            </div>
+                                            <div class="item-messages-company-details__body">
+                                                <div class="item-messages-company-details__image ibg">
+                                                    <img src="img/avatar.png" alt="avatar">
+                                                </div>
+                                                <div class="item-messages-company-details__content">
+                                                    <div class="item-messages-company-details__name">Linda Amanda</div>
+                                                    <div class="item-messages-company-details__descr">Call to Christopher, Send job offer</div>
+                                                    <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="messages-company-details__item item-messages-company-details item-messages-company-details-task">
+                                            <div class="item-messages-company-details__top">
+                                                <div class="item-messages-company-details__inner-top">
+                                                    <div class="item-messages-company-details__label">Task</div>
+                                                    <div class="item-messages-company-details__top-group">
+                                                        <div class="item-messages-company-details__job">Assigned to <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                                        <div class="item-messages-company-details__deadline">Due Date: 12/12/2022</div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="item-messages-company-details__more icon-vertical-dots"></button>
+                                            </div>
+                                            <div class="item-messages-company-details__content">
+                                                <div class="item-messages-company-details__name">Task title</div>
+                                                <div class="item-messages-company-details__descr">
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                </div>
+                                                <div class="item-messages-company-details__bottom">
+                                                    <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                    <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="company-detail__messages messages-company-details">
+                                <div class="messages-company-details__top">
+                                    <div class="messages-company-details__filters">
+                                        <div class="messages-company-details__filter">All</div>
+                                        <div class="messages-company-details__filter messages-company-details__filter-active">Notes & Calls</div>
+                                        <div class="messages-company-details__filter">Tasks</div>
+                                        <div class="messages-company-details__filter">Meetings</div>
+                                        <div class="messages-company-details__filter">Files</div>
+                                    </div>
+                                    <div class="messages-company-details__add add-messages-company-details">
+                                        <div class="add-messages-company-details__main-button">
+                                            <button type="button" class="add-messages-company-details__button button-primary icon-plus"><span>Add</span></button>
+                                            <button type="button" class="add-messages-company-details__button-arrow button-primary icon-arrow-small"></button>
+                                            <!-- _active to rotate arrow -->
+                                        </div>
+                                        <ul class="add-messages-company-details__list">
+                                            <li class="add-messages-company-details__li">Add Note</li> 
+                                            <li class="add-messages-company-details__li">Add Call log</li> 
+                                            <li class="add-messages-company-details__li">Add Task</li> 
+                                            <li class="add-messages-company-details__li">Add Meeting</li> 
+                                            <li class="add-messages-company-details__li">Upload file</li> 
+                                        </ul>
+                                        <!-- _active to show -->
+                                    </div>
+                                </div>
+                                <div class="messages-company-details__body">
+                                    <div class="messages-company-details__item item-messages-company-details item-messages-company-details-note">
+                                        <div class="item-messages-company-details__top">
+                                            <div class="item-messages-company-details__inner-top">
+                                                <div class="item-messages-company-details__label">Note</div>
+                                            </div>
+                                            <button type="button" class="item-messages-company-details__more icon-vertical-dots"></button>
+                                        </div>
+                                        <div class="item-messages-company-details__body">
+                                            <div class="item-messages-company-details__image ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                            </div>
+                                            <div class="item-messages-company-details__content">
+                                                <div class="item-messages-company-details__name">Linda Amanda</div>
+                                                <div class="item-messages-company-details__descr">
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla...
+                                                </div>
+                                                <div class="item-messages-company-details__show-more show-more">Show more</div>
+                                                <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="messages-company-details__item item-messages-company-details item-messages-company-details-meetings">
+                                        <div class="item-messages-company-details__top">
+                                            <div class="item-messages-company-details__inner-top">
+                                                <div class="item-messages-company-details__label">Meetings</div>
+                                                <div class="item-messages-company-details__job">Job <span>Senior UI/UX Designer</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-messages-company-details__content">
+                                           <div class="item-messages-company-details__name">Phone Interview</div>
+                                            <div class="item-messages-company-details__time">
+                                                <div class="item-messages-company-details__time-item icon-clock">15:30, 05/08/2022</div>
+                                                <div class="item-messages-company-details__time-item icon-team">3 attendees</div>      
+                                            </div>
+                                            <div class="item-messages-company-details__descr">
+                                                Task description minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            </div>
+                                            <div class="item-messages-company-details__bottom">
+                                                <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                            </div >
+                                        </div>
+                                    </div>
+                                    <div class="messages-company-details__item item-messages-company-details item-messages-company-details-file">
+                                        <div class="item-messages-company-details__top">
+                                            <div class="item-messages-company-details__inner-top">
+                                                <div class="item-messages-company-details__label">File</div>
+                                            </div>
+                                            <button type="button" class="item-messages-company-details__remove icon-delete"></button>
+                                        </div>
+                                        <div class="item-messages-company-details__content">
+                                           <div class="item-messages-company-details__name">Demi_lovato_portfolio_graphicdesign.pdf</div>
+                                            <div class="item-messages-company-details__bottom">
+                                                <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="messages-company-details__item item-messages-company-details item-messages-company-details-call">
+                                        <div class="item-messages-company-details__top">
+                                            <div class="item-messages-company-details__inner-top">
+                                                <div class="item-messages-company-details__label">Call</div>
+                                                <div class="item-messages-company-details__job">Connected</div>
+                                            </div>
+                                        </div>
+                                        <div class="item-messages-company-details__body">
+                                            <div class="item-messages-company-details__image ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                            </div>
+                                            <div class="item-messages-company-details__content">
+                                                <div class="item-messages-company-details__name">Linda Amanda</div>
+                                                <div class="item-messages-company-details__descr">Call to Christopher, Send job offer</div>
+                                                <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="messages-company-details__item item-messages-company-details item-messages-company-details-task">
+                                        <div class="item-messages-company-details__top">
+                                            <div class="item-messages-company-details__inner-top">
+                                                <div class="item-messages-company-details__label">Task</div>
+                                                <div class="item-messages-company-details__top-group">
+                                                    <div class="item-messages-company-details__job">Assigned to <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                                    <div class="item-messages-company-details__deadline">Due Date: 12/12/2022</div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="item-messages-company-details__more icon-vertical-dots"></button>
+                                        </div>
+                                        <div class="item-messages-company-details__content">
+                                            <div class="item-messages-company-details__name">Task title</div>
+                                            <div class="item-messages-company-details__descr">
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            </div>
+                                            <div class="item-messages-company-details__bottom">
+                                                <div class="item-messages-company-details__date">15:35, 05/08/2022</div>
+                                                <div class="item-messages-company-details__created">Created by <div class="ibg"><img src="img/avatar.png" alt="avatar"></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="messages-company-details__not-found">
+                                        <div class="messages-company-details__not-found-img ibg">
+                                            <img src="img/no-found.svg" alt="no-found">
+                                        </div>
+                                        <div class="messages-company-details__not-found-title">No notes and calls</div>
+                                        <div class="messages-company-details__not-found-text">You'll see Notes & Call logs you add here</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>      
+            </div>
+        </div>
+    </div>
+    <!-- customize-popup-active - class -->
+<div class="customize-popup"> 
+    <div class="customize-popup__wrapper">
+        <div class="customize-popup__top">
+            <div class="customize-popup__title">Customize columns</div>
+            <button class="customize-popup__close icon-close"></button>
+        </div>
+        <div class="customize-popup__body">
+            <div class="customize-popup__item customize-check">
+                <div class="customize-popup__label icon-add-check">Add/remove column(s)</div>
+                <div class="customize-check__body">
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">All</div>
+                    </div>
+                    <div class="customize-check__item customize-check__item-active">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Company name</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Address</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Website</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Active vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Closed vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Pending vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Cancelled jobs</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Owner</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customize-popup__item customize-select">
+                <div class="customize-select__top">
+                    <div class="customize-popup__label icon-select-check">Selected column(s)</div>
+                    <div class="customize-select__label">Drag to move</div>
+                </div>
+                <div class="customize-select__body">
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Company name</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Active vacancies</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Pending vacancies</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Cancelled jobs</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Owner</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="customize-popup__bottom">
+            <button class="customize-popup__reset button-border">Reset to Default</button>
+            <button class="customize-popup__apply button-primary">Apply Columns</button>
+        </div>
+    </div>
+    <div style="display: none;" class="customize-popup__discard discard-popup">
+        <div class="discard-popup__wrapper">
+            <div class="discard-popup__title">Discard changes?</div>
+            <div class="discard-popup__text">Do you want to discard edits or continue editing?</div>
+            <div class="discard-popup__buttons">
+                <button class="discard-popup__button button-border" type="button">Cancel</button>
+                <button class="discard-popup__button button-primary" type="button">Continue editing</button>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!-- add-company-popup-active - class -->
+<div  class="add-company-popup">
+    <div class="add-company-popup__wrapper">
+        <div class="add-company-popup__top">
+            <div class="add-company-popup__title">Add company</div>
+            <div class="add-company-popup__close icon-close"></div>
+        </div>
+        <form action="#" method="post" name="add-company" class="add-company-popup__form">
+            <div class="add-company-popup__upload-block">
+                <div class="add-company-popup__upload-image ibg">
+                    <img src="img/upload.png" alt="upload">
+                </div>
+                <label for="upload-add">
+                    <div class="add-company-popup__upload">Upload</div>
+                    <input type="file" name="form[]" id="upload-add" placeholder="write..." autocomplete="off">
+                </label>
+            </div>
+            <label for="company-name">
+                <div class="add-company-popup__label">Company Name <span>*</span></div>
+                <input type="text" name="form[]" id="company-name" placeholder="Input company name" autocomplete="off">
+            </label>
+            <div class="add-company-popup__column">
+                <label for="company-website">
+                    <div class="add-company-popup__label">Website</div>
+                    <input type="text" name="form[]" id="company-website" placeholder="Search column" autocomplete="off">
+                </label>
+                <label for="company-city">
+                    <div class="add-company-popup__label">City <span>*</span></div>
+                    <input type="text" name="form[]" id="company-city" placeholder="Search column" autocomplete="off">
+                </label>
+            </div>
+            <label for="company-about">
+                <div class="add-company-popup__label">About company</div>
+                <textarea name="form[]" id="company-about" placeholder="About company"></textarea>
+            </label>
+            <label for="company-address">
+                <div class="add-company-popup__label">Full address</div>
+                <textarea name="form[]" id="company-adress" placeholder="Full address"></textarea>
+            </label>
+            <label for="company-about">
+                <div class="add-company-popup__label">Link for Social media <span>*</span></div>
+                <div class="add-company-popup__social-line social-add-company">
+                    <div class="social-add-company__wrapper">
+                        <div class="social-add-company__select icon-arrow-small">Facebook</div>
+                        <input type="text" class="social-add-company__input" name="form[]" placeholder="Input social link" autocomplete="off">
+                    </div>
+                    <button type="button" class="social-add-company__button icon-plus"><span>Add</span></button>
+                </div>
+                <div class="add-company-popup__item-social item-social-add-company">
+                    <div class="item-social-add-company__image ibg">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </div>
+                    <div class="item-social-add-company__link">https://facebook.com/filavietnam121</div>
+                    <div class="item-social-add-company__bin icon-delete"></div>
+                </div>
+                <div class="add-company-popup__item-social item-social-add-company">
+                    <div class="item-social-add-company__image ibg">
+                        <img src="img/twitter.svg" alt="twitter">
+                    </div>
+                    <div class="item-social-add-company__link">https://twitter.com/filavietnam</div>
+                    <div class="item-social-add-company__bin icon-delete"></div>
+                </div>
+            </label>
+        </form>
+        <div class="add-company-popup__bottom">
+            <button class="add-company-popup__cancel button-border">Cancel</button>
+            <button class="add-company-popup__add button-primary">Add</button>
+        </div>
+    </div>
+</div>
+    <script src="./js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <!-- sidebar-open  - class to show sidebar -->
+<sidebar class="sidebar">
+    <div class="sidebar__container">
+        <div class="sidebar__top">
+            <div class="sidebar__burdger"><span></span></div>
+            <div class="sidebar__close icon-double-arrow">Menu</div>
+        </div>
+        <div class="sidebar__wrapper">
+            <div class="sidebar__body">
+                <div class="sidebar__item item-sidebar icon-dashboard">
+                    <div class="item-sidebar__title">Dashboard</div>
+                </div>
+                <div class="sidebar__item item-sidebar item-sidebar-active icon-profile">
+                    <div class="item-sidebar__title">Candidates<span>12</span></div>
+                    <span class="item-sidebar__notif"></span>
+                </div>
+                <div class="sidebar__item item-sidebar icon-jobs">
+                    <div class="item-sidebar__title">Vancancies</div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-companies">
+                    <div class="item-sidebar__title">Companies</div>
+                    <span class="item-sidebar__notif"></span>
+                </div>
+                <div class="sidebar__item item-sidebar icon-calendar">
+                    <div class="item-sidebar__title">Calendar<span>3</span></div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-email">
+                    <div class="item-sidebar__title">Email<span>123</span></div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-team">
+                    <div class="item-sidebar__title">Team members</div>
+                </div>
+            </div>
+            <div class="sidebar__bottom">
+                <div class="sidebar__item item-sidebar icon-settings">
+                    <div class="item-sidebar__title">Setting</div>
+                </div>
+                <div class="sidebar__item item-sidebar icon-help">
+                    <div class="item-sidebar__title">Help center</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sidebar>
+            <div class="wrapper__inner-content">
+                <header class="header">
+    <div class="header__container">
+        <button class="header__burger">
+            <span></span>
+            <div class="header__burger-notif">1</div>
+        </button>
+        <a href="/" class="header__logo">
+            <img src="img/logo.svg" alt="logo">
+        </a>
+        <div class="header__wrapper">
+            <div class="header__title">Main page title</div>
+            <div class="header__body">
+                <div class="header__search">
+                    <div class="search-form">
+                        <button class="search-form__icon icon-search"></button>
+                        <form action="#" method="post" name="search-form" class="search-form__item search-form__item_main">
+                            <button class="search-form__btn icon-search"></button>
+                            <input autocomplete='off' type='text' name='form[]' class='search-form__input' placeholder="Search by Candidates, Jobs, Companies">
+                            <button style="display: none;" class="search-form__btn-close icon-close-search"></button>
+                        </form>
+                        <div style="display: none;" class="search-form__block block-found">
+                            <div class="block-found__search">
+                                <button class="search-form__icon icon-arrow-small"></button>
+                                <form action="#" method="post" name="search-form" class="search-form__item">
+                                    <button class="search-form__btn icon-search"></button>
+                                    <input autocomplete='off' type='text' name='form[]' class='search-form__input' placeholder="Search by Candidates, Jobs, Companies">
+                                    <button style="display: none;" class="search-form__btn-close icon-close-search"></button>
+                                </form>
+                            </div>
+                            
+                            <div class="block-found__tabs">
+                                <div class="block-found__tabs-item block-found__tabs-item-active icon-profile">Candidates <span>23</span></div>
+                                <div class="block-found__tabs-item icon-jobs">Jobs <span>23</span></div>
+                                <div class="block-found__tabs-item icon-companies">Companies <span>23</span></div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_cirlce">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found item-block-found_circle">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Debashmita Lovato</div>
+                                        <div class="item-block-found__subtitle">Dedemi.lovato@corecruiter.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                                <div class="block-found__item item-block-found">
+                                    <div class="item-block-found__image ibg">
+                                        <img src="img/company-image.png" alt="avatar">
+                                    </div>
+                                    <div class="item-block-found__content">
+                                        <div class="item-block-found__title">Senior UI/UX Designer</div>
+                                        <div class="item-block-found__subtitle">IBM Corporation</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__skeleton skeleton-block-found skeleton-block-found-circle">
+                                    <div class="skeleton-block-found__image">
+                                    </div>
+                                    <div class="skeleton-block-found__content">
+                                        <div class="skeleton-block-found__title"></div>
+                                        <div class="skeleton-block-found__subtitle"></div>
+                                    </div>
+                                </div>
+                                <div class="block-found__skeleton skeleton-block-found">
+                                    <div class="skeleton-block-found__image">
+                                    </div>
+                                    <div class="skeleton-block-found__content">
+                                        <div class="skeleton-block-found__title"></div>
+                                        <div class="skeleton-block-found__subtitle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-found__body">
+                                <div class="block-found__no-found no-found-block">
+                                    <div class="no-found-block__image">
+                                        <img src="img/no-found.svg" alt="no-found">
+                                    </div>
+                                    <div class="no-found-block__text">No results found</div>
+                                </div>
+                            </div>
+                            <div class="block-found__show">Show more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__options">
+                    <div class="header__add">
+                        <div class="header__add-icon icon-plus"></div>
+                        <span>Add</span>
+                    </div>
+                    <div class="header__notifications header__notifications_active icon-bell"></div>
+                    <div class="header__avatar ibg">
+                        <img src="img/avatar.png" alt="avatar">
+                        <div style="display: none;" class="header__account account-header">
+                            <div class="account-header__top">
+                                <div class="account-header__image ibg">
+                                    <img src="img/avatar.png" alt="avatar">
+                                </div>
+                                <div class="account-header__info">
+                                    <div class="account-header__name">Laurel Martin</div>
+                                    <div class="account-header__email">laurel.martin@corecruiter.com</div>
+                                </div>
+                            </div>
+                            <div class="account-header__body">
+                                <a href="/" class="account-header__item icon-profile">Profile</a>
+                                <a href="/" class="account-header__item icon-settings">Setting</a>
+                                <a href="/" class="account-header__item icon-feedback">Give feedback</a>
+                                <a href="/" class="account-header__item icon-help">Help center</a>
+                                <a href="/" class="account-header__item icon-out">Sign out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</header>
+                <main class="page">
+                    <section class="company">
+                        <div class="company__container">
+                            <div class="company__top top-company">
+                                <div class="top-company__filters">
+                                    <form action="#" method="post" name="search-form" class="search-top-company">
+                                        <button class="search-top-company__btn icon-search"></button>
+                                        <input autocomplete='off' type='text' name='form[]' class='search-top-company__input' placeholder="Search">
+                                    </form>
+                                    <button class="top-company__filter icon-filter"><span>Filter</span></button>
+                                </div>
+                                <div class="top-company__button">
+                                    <button class="top-company__add icon-plus">Add<span>&nbsp;company</span></button>
+                                    <button class="top-company__catalog icon-thing">
+                                        <div class="item-company__tips item-company__tips_left icon-triagle">Customize column</div>
+                                    </button>
+                                </div> 
+                            </div>
+                            <div class="company__sub">
+                                <div class="company__all"><span>1490</span> companies</div>
+                                <div class="company__select-all">
+                                    <label for="select_1">
+                                        <div class="company__select-text">
+                                            Select all
+                                            <div class="company__select-check input-check"></div>
+                                        </div>
+                                        <input type="checkbox" name="form[]" id="select_1" placeholder="write..." autocomplete="off">
+                                    </label>
+                                </div>
+                                <div class="company__results">
+                                    <div class="company__count">11-20 <span>out of</span> 97 <span>results</span></div>
+                                    <div class="company__arrows">
+                                        <button type="button" class="company__arrow-button icon-arrow-small"></button>
+                                        <button type="button" class="company__arrow-button icon-arrow-small"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="company__wrapper">
+                                <table class="company__table" cellpadding = "20" cellspacing = "0">
+                                    <tr class="company__tr-main">
+                                        <th>
+                                            <label for="bar-check">
+                                                <div class="bar-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="bar-check" autocomplete="off">
+                                            </label>
+                                        </th>
+                                        <th class="bar-company__item">Company name</th>
+                                        <th class="bar-company__item bar-company__item-th-address">Address</th>
+                                        <th class="bar-company__item bar-company__item-th-website">Website</th>
+                                        <th class="bar-company__item">Active vacancies</th>
+                                        <th class="bar-company__item">Closed vacancies</th>
+                                        <th class="bar-company__item">Pending vacancies</th>
+                                        <th class="bar-company__item">Cancelled jobs</th>
+                                        <th class="bar-company__item bar-company__item-th-owner">Owner</th>
+                                    </tr>   
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company item-company-active">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company item-company-active">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="company__item item-company">
+                                        <td class="item-company__label-td">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__check"></div> 
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                        </td>
+                                        <td class="item-company__content">
+                                            <label class="item-company__label" for="item-company_check_1">
+                                                <div class="item-company__image ibg">
+                                                    <div class="item-company__check-img"></div>
+                                                    <img src="img/company-image.png" alt="img">
+                                                </div>
+                                                <input type="checkbox" name="form[]" id="item-company_check_1" autocomplete="off">
+                                            </label>
+                                            <div class="item-company__name">
+                                                KPMG Digital Enablement
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">LG Vehicle Component Solutions Development Center Vietnam (LG VS DCV)</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__address-td">
+                                            <div class="item-company__address">
+                                                705 Parnassus Ave San Fran...
+                                                <div class="item-company__tips item-company__tips_up icon-triagle">705 Parnassus Ave San Francisco</div>
+                                            </div>
+                                        </td>
+                                        <td class="item-company__website-td">
+                                            <a href="/" class="item-company__website">ibm.co</a>
+                                        </td>
+                                        <td class="item-company__active item-company__item">
+                                            <span>Active</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__closed item-company__item">
+                                            <span>Pending</span>
+                                            46
+                                        </td>
+                                        <td class="item-company__pending item-company__item">
+                                            <span>Closed</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__cancelled item-company__item">
+                                            <span>Cancelled</span>
+                                            -
+                                        </td>
+                                        <td class="item-company__onwer-td">
+                                            <div class="item-company__owner ibg">
+                                                <img src="img/avatar.png" alt="avatar">
+                                                <div class="item-company__tips item-company__tips_left icon-triagle">Christopher Kanba</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                 </table>
+                            </div>
+
+                            <!-- company__notif-active - class to show  -->
+                            <div class="company__notif icon-good">
+                                <span>You just added a company successful<button class="icon-close"></button></span>
+                            </div>
+                        </div>
+                        <div style="display: none;" class="company__bottom bottom-company">
+                            <div class="bottom-company__item icon-send">Send email</div>
+                            <div class="bottom-company__item icon-share">Share</div>
+                            <div class="bottom-company__item icon-delete">Delete</div>
+                        </div>
+                    </section>
+                </main>      
+            </div>
+        </div>
+    </div>
+    <!-- customize-popup-active - class -->
+<div class="customize-popup"> 
+    <div class="customize-popup__wrapper">
+        <div class="customize-popup__top">
+            <div class="customize-popup__title">Customize columns</div>
+            <button class="customize-popup__close icon-close"></button>
+        </div>
+        <div class="customize-popup__body">
+            <div class="customize-popup__item customize-check">
+                <div class="customize-popup__label icon-add-check">Add/remove column(s)</div>
+                <div class="customize-check__body">
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">All</div>
+                    </div>
+                    <div class="customize-check__item customize-check__item-active">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Company name</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Address</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Website</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Active vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Closed vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Pending vacancies</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Cancelled jobs</div>
+                    </div>
+                    <div class="customize-check__item">
+                        <label for="check_1" class="customize-check__label">
+                            <div class="customize-check__check input-check"></div>
+                            <input type="checkbox" class="customize-check__input-check" name="form[]" id="check_1" placeholder="write..." autocomplete="off">
+                        </label>
+                        <div class="customize-check__text">Owner</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customize-popup__item customize-select">
+                <div class="customize-select__top">
+                    <div class="customize-popup__label icon-select-check">Selected column(s)</div>
+                    <div class="customize-select__label">Drag to move</div>
+                </div>
+                <div class="customize-select__body">
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Company name</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Active vacancies</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Pending vacancies</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Cancelled jobs</div>
+                    </div>
+                    <div class="customize-select__item icon-select">
+                        <div class="customize-select__content">Owner</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="customize-popup__bottom">
+            <button class="customize-popup__reset button-border">Reset to Default</button>
+            <button class="customize-popup__apply button-primary">Apply Columns</button>
+        </div>
+    </div>
+    <div style="display: none;" class="customize-popup__discard discard-popup">
+        <div class="discard-popup__wrapper">
+            <div class="discard-popup__title">Discard changes?</div>
+            <div class="discard-popup__text">Do you want to discard edits or continue editing?</div>
+            <div class="discard-popup__buttons">
+                <button class="discard-popup__button button-border" type="button">Cancel</button>
+                <button class="discard-popup__button button-primary" type="button">Continue editing</button>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!-- add-company-popup-active - class -->
+<div  class="add-company-popup">
+    <div class="add-company-popup__wrapper">
+        <div class="add-company-popup__top">
+            <div class="add-company-popup__title">Add company</div>
+            <div class="add-company-popup__close icon-close"></div>
+        </div>
+        <form action="#" method="post" name="add-company" class="add-company-popup__form">
+            <div class="add-company-popup__upload-block">
+                <div class="add-company-popup__upload-image ibg">
+                    <img src="img/upload.png" alt="upload">
+                </div>
+                <label for="upload-add">
+                    <div class="add-company-popup__upload">Upload</div>
+                    <input type="file" name="form[]" id="upload-add" placeholder="write..." autocomplete="off">
+                </label>
+            </div>
+            <label for="company-name">
+                <div class="add-company-popup__label">Company Name <span>*</span></div>
+                <input type="text" name="form[]" id="company-name" placeholder="Input company name" autocomplete="off">
+            </label>
+            <div class="add-company-popup__column">
+                <label for="company-website">
+                    <div class="add-company-popup__label">Website</div>
+                    <input type="text" name="form[]" id="company-website" placeholder="Search column" autocomplete="off">
+                </label>
+                <label for="company-city">
+                    <div class="add-company-popup__label">City <span>*</span></div>
+                    <input type="text" name="form[]" id="company-city" placeholder="Search column" autocomplete="off">
+                </label>
+            </div>
+            <label for="company-about">
+                <div class="add-company-popup__label">About company</div>
+                <textarea name="form[]" id="company-about" placeholder="About company"></textarea>
+            </label>
+            <label for="company-address">
+                <div class="add-company-popup__label">Full address</div>
+                <textarea name="form[]" id="company-adress" placeholder="Full address"></textarea>
+            </label>
+            <label for="company-about">
+                <div class="add-company-popup__label">Link for Social media <span>*</span></div>
+                <div class="add-company-popup__social-line social-add-company">
+                    <div class="social-add-company__wrapper">
+                        <div class="social-add-company__select icon-arrow-small">Facebook</div>
+                        <input type="text" class="social-add-company__input" name="form[]" placeholder="Input social link" autocomplete="off">
+                    </div>
+                    <button type="button" class="social-add-company__button icon-plus"><span>Add</span></button>
+                </div>
+                <div class="add-company-popup__item-social item-social-add-company">
+                    <div class="item-social-add-company__image ibg">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </div>
+                    <div class="item-social-add-company__link">https://facebook.com/filavietnam121</div>
+                    <div class="item-social-add-company__bin icon-delete"></div>
+                </div>
+                <div class="add-company-popup__item-social item-social-add-company">
+                    <div class="item-social-add-company__image ibg">
+                        <img src="img/twitter.svg" alt="twitter">
+                    </div>
+                    <div class="item-social-add-company__link">https://twitter.com/filavietnam</div>
+                    <div class="item-social-add-company__bin icon-delete"></div>
+                </div>
+            </label>
+        </form>
+        <div class="add-company-popup__bottom">
+            <button class="add-company-popup__cancel button-border">Cancel</button>
+            <button class="add-company-popup__add button-primary">Add</button>
+        </div>
+    </div>
+</div>
+    <script src="./js/app.min.js"></script>
+</body>
+</html>
